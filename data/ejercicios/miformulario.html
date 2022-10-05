@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario Creedenciales</h1>
+    <form name="miformu" action="/autoriza.php" method="get">
+     <p>
+        <label for="nombre"> Introduce Nombre: </label>
+        <input type="text" name="nombreusu" id="nombreusu">
+     </p>
+     <p>
+        <label for="password">Introduce la contraseña:</label>
+        <input type="password" name="passwd" id="passwd">
+     </p>
+     <p>
+        <p>Elige tu asigantua fav</p>
+        
+
+        <label for="asignatura1">PHP</label>
+        <input type="checkbox" name="asignaturas[]" id="asignatura1" value="PHP">
+        <label for="asignatura2">JAVA</label>
+        <input type="checkbox" name="asignaturas[]" id="asignatura2" value="JAVA">
+        <label for="asignatura3">PYTHON</label>
+        <input type="checkbox" name="asignaturas[]" id="asignatura3" value="PYTHON">
+        <label for="asignatura4">C++</label>
+        <input type="checkbox" name="asignaturas[]" id="asignatura4" value="C++">
+        <label for="asignatura5">C#</label>
+        <input type="checkbox" name="asignaturas[]" id="asignatura5" value="C#">
+     </p>
+     <p>Elige tu equipo de baloncesto preferido</p>
+     <p>
+        <input type="radio" name="equipo" id="equipo1" value="Casademon" > 
+        <label for="equipo1">Casademon</label>
+        <input type="radio" name="equipo" id="equipo2" value="Burgos">
+        <label for="equipo2">Burgos</label>
+        <input type="radio" name="equipo" id="equipo3" value="Portuano">
+        <label for="equipo3">Portuano</label>
+     </p>
+     <p>Elige th plato favorito</p>
+     <p>
+        <select name="menus[]" id="menus" required>
+            <option value="codillo">codillo</option>
+            <option value="ensalada">ensalada</option>
+            <option value="perro">perro</option>
+            <option value="gato">gato</option>
+        </select>
+     </p>
+    <input type = "submit" name="envio" id="envio" value="Enviar">
+    </form>
+</body>
+</html>
