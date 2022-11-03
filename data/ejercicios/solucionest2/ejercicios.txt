@@ -1,0 +1,4 @@
+
+
+Ejercicio
+Crea una lista usando etiquetas ul y li. La lista inicialmente estará vacía pero un formulario con un input servirá para añadir los elementos. Usa input de tipo hiddens para que no "olvidar" los elementos ya añadidos a la lista.autoriza añadir los elementos. Usa input de tipo hiddens para que no "olvidar" los elementos ya añadidos a la lista.autoriza
